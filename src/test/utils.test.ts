@@ -15,7 +15,7 @@ describe('utils test suite', () => {
             const actual = sut.toUpperCase('abc')
             expect(actual).toBe('ABC')
         })
-
+        //
         it('throws error on invalid argument', () => {
             function expectError() {
                 const actual = sut.toUpperCase('')
